@@ -11,7 +11,7 @@ the current site.
 
 ## License
 
-This software is licensed until the term of the [MIT license](LICENSE), with the exception of the
+This software is licensed under the terms of the [MIT license](LICENSE), with the exception of the
 icons (`icon-16.png` and `icon-48.png`), which were derived from   [Google Material
 Symbols](https://fonts.google.com/icons), and are licensed under [Apache-2.0
 license](LICENSE-icons).
