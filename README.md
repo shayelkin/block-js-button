@@ -1,15 +1,15 @@
 # block-js-button
 
-The Google Chrome setting to disable JavaScript for a site is not easily accessible. This is a
+Google Chrome's setting that disables JavaScript for a site is not easily accessible. This is a
 minimal Chrome extension that fixes that, by adding a toolbar button that toggle JavaScript on
 the current site.
 
 ## Install
 
-This extension is not published to the Chrome Web Store, and need to be installed as unpacked
+This extension is not published to the Chrome Web Store, and need to be installed as an unpacked
 extension:
 
-1. Clone this repository, or download the latest [release](./releases/latest) and unzip it to a
+1. Clone this repository, or download the latest [release](../../releases/latest) and unzip it to a
    permanent location.
 2. Navigate to Chrome's extensions configuration (`chrome://extensions`), and enable developer mode
    (top-right toggle).
