@@ -26,8 +26,9 @@ async function refreshAction(tab) {
 
   await chrome.action.enable(tabId);
   const blocked = (await getSetting(tab.url)) === "block";
-  await chrome.action.setBadgeText({ tabId, text: blocked ? "OFF" : "" });
-  await chrome.action.setBadgeBackgroundColor({ tabId, color: "#cc0000" });
+  const icon16 = blocked ? "icon-16-off.png" : "icon-16.png";
+  const icon48 = blocked ? "icon-48-off.png" : "icon-48.png";
+  await chrome.action.setIcon({ path: { '16': icon16, '48': icon48 } });
   await chrome.action.setTitle({
     tabId,
     title: blocked ? "JavaScript blocked — click to allow" : "Click to block JavaScript on this site",
